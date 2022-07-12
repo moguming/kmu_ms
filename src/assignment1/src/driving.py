@@ -80,7 +80,7 @@ def start():
     global motor, image
 
     #=========================================
-    # ROS 노드를 생성하고 초기화 함.
+    # ROS 노드를 생성하고 초기화 함.y
     # 카메라 토픽을 구독하고 모터 토픽을 발행할 것임을 선언
     #=========================================
     rospy.init_node('driving')
@@ -116,21 +116,25 @@ def start():
         speed = 20
 
         lines = cv2.HoughLinesP(src1, 1.2, np.pi / 180, 100, minLineLength=100, maxLineGap=60)
-        print(lines[0])
+        #print(lines)
         #차량
         cv2.line(dst, (int(width / 2), height), (int(width / 2), int(height / 1.3)), (255, 255, 0), 8) 
         if (lines is not None):
             direction = ""
             for i in lines:
                 cv2.line(dst, (i[0][0], i[0][1]), (i[0][2], i[0][3]), (0, 0, 255), 2)
-                if (i[0][2] > int(width / 2)):
-                    angle = 10
+                if (i[0][2] < int(width / 2)):
+                    angle = 5
                     drive(angle, speed)
                     direction = "Turn Right " + str(abs(width / 2 + i[0][2]))
-                elif (i[0][2] < int(width / 2)):
-                    angle = -10
+                elif (i[0][2] > int(width / 2)):
+                    angle = -5
                     drive(angle, speed)
                     direction = "Turn Left " + str(abs(width / 2 - i[0][0]))
+                elif (i[0][2] == int(width / 2)):
+                    angle = 0
+                    drive(angle, speed + 5)
+                    direction = "Go straight" + str(ads(width / 2))
                     
         dst = cv2.putText(dst, '[Driving Info] : ' + direction, (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 0.8,
                           (0, 255, 255), 2, cv2.LINE_AA)       
