@@ -1,2 +1,2 @@
 assignment1:assignment2:xycar_msgs:xycar_sim_parking
--DCATKIN_DEVEL_PREFIX=/home/moguming/kmu_ms/devel -DCMAKE_INSTALL_PREFIX=/home/moguming/kmu_ms/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/uu007007007/kmu_ms/devel -DCMAKE_INSTALL_PREFIX=/home/uu007007007/kmu_ms/install -G Unix Makefiles

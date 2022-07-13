@@ -1,8 +1,8 @@
-# Install script for directory: /home/moguming/kmu_ms/src/assignment1
+# Install script for directory: /home/uu007007007/kmu_ms/src/assignment1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/moguming/kmu_ms/install")
+  set(CMAKE_INSTALL_PREFIX "/home/uu007007007/kmu_ms/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/moguming/kmu_ms/build/assignment1/catkin_generated/installspace/assignment1.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/uu007007007/kmu_ms/build/assignment1/catkin_generated/installspace/assignment1.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment1/cmake" TYPE FILE FILES
-    "/home/moguming/kmu_ms/build/assignment1/catkin_generated/installspace/assignment1Config.cmake"
-    "/home/moguming/kmu_ms/build/assignment1/catkin_generated/installspace/assignment1Config-version.cmake"
+    "/home/uu007007007/kmu_ms/build/assignment1/catkin_generated/installspace/assignment1Config.cmake"
+    "/home/uu007007007/kmu_ms/build/assignment1/catkin_generated/installspace/assignment1Config-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment1" TYPE FILE FILES "/home/moguming/kmu_ms/src/assignment1/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment1" TYPE FILE FILES "/home/uu007007007/kmu_ms/src/assignment1/package.xml")
 endif()
 

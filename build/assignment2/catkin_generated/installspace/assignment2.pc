@@ -1,4 +1,4 @@
-prefix=/home/moguming/kmu_ms/install
+prefix=/home/uu007007007/kmu_ms/install
 
 Name: assignment2
 Description: Description of assignment2

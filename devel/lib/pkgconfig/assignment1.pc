@@ -1,4 +1,4 @@
-prefix=/home/moguming/kmu_ms/devel
+prefix=/home/uu007007007/kmu_ms/devel
 
 Name: assignment1
 Description: Description of assignment1

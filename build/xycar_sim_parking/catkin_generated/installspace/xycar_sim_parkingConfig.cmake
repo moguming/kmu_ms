@@ -67,14 +67,14 @@ set(xycar_sim_parking_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(xycar_sim_parking_SOURCE_PREFIX /home/moguming/kmu_ms/src/xycar_sim_parking)
-  set(xycar_sim_parking_DEVEL_PREFIX /home/moguming/kmu_ms/devel)
+  set(xycar_sim_parking_SOURCE_PREFIX /home/uu007007007/kmu_ms/src/xycar_sim_parking)
+  set(xycar_sim_parking_DEVEL_PREFIX /home/uu007007007/kmu_ms/devel)
   set(xycar_sim_parking_INSTALL_PREFIX "")
   set(xycar_sim_parking_PREFIX ${xycar_sim_parking_DEVEL_PREFIX})
 else()
   set(xycar_sim_parking_SOURCE_PREFIX "")
   set(xycar_sim_parking_DEVEL_PREFIX "")
-  set(xycar_sim_parking_INSTALL_PREFIX /home/moguming/kmu_ms/install)
+  set(xycar_sim_parking_INSTALL_PREFIX /home/uu007007007/kmu_ms/install)
   set(xycar_sim_parking_PREFIX ${xycar_sim_parking_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/moguming/kmu_ms/install/lib;/home/moguming/kmu_ms/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/uu007007007/kmu_ms/install/lib;/home/uu007007007/catkin_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

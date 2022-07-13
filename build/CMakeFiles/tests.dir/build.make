@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/moguming/kmu_ms/src
+CMAKE_SOURCE_DIR = /home/uu007007007/kmu_ms/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/moguming/kmu_ms/build
+CMAKE_BINARY_DIR = /home/uu007007007/kmu_ms/build
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/moguming/kmu_ms/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/moguming/kmu_ms/src /home/moguming/kmu_ms/src /home/moguming/kmu_ms/build /home/moguming/kmu_ms/build /home/moguming/kmu_ms/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/uu007007007/kmu_ms/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uu007007007/kmu_ms/src /home/uu007007007/kmu_ms/src /home/uu007007007/kmu_ms/build /home/uu007007007/kmu_ms/build /home/uu007007007/kmu_ms/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

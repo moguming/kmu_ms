@@ -1,8 +1,8 @@
-# Install script for directory: /home/moguming/kmu_ms/src/xycar_msgs
+# Install script for directory: /home/uu007007007/kmu_ms/src/xycar_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/moguming/kmu_ms/install")
+  set(CMAKE_INSTALL_PREFIX "/home/uu007007007/kmu_ms/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,55 +39,55 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xycar_msgs/msg" TYPE FILE FILES
-    "/home/moguming/kmu_ms/src/xycar_msgs/msg/xycar_motor.msg"
-    "/home/moguming/kmu_ms/src/xycar_msgs/msg/xycar_ultrasounds.msg"
+    "/home/uu007007007/kmu_ms/src/xycar_msgs/msg/xycar_motor.msg"
+    "/home/uu007007007/kmu_ms/src/xycar_msgs/msg/xycar_ultrasounds.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xycar_msgs/cmake" TYPE FILE FILES "/home/moguming/kmu_ms/build/xycar_msgs/catkin_generated/installspace/xycar_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xycar_msgs/cmake" TYPE FILE FILES "/home/uu007007007/kmu_ms/build/xycar_msgs/catkin_generated/installspace/xycar_msgs-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/moguming/kmu_ms/devel/include/xycar_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/uu007007007/kmu_ms/devel/include/xycar_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/moguming/kmu_ms/devel/share/roseus/ros/xycar_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/uu007007007/kmu_ms/devel/share/roseus/ros/xycar_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/moguming/kmu_ms/devel/share/common-lisp/ros/xycar_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/uu007007007/kmu_ms/devel/share/common-lisp/ros/xycar_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/moguming/kmu_ms/devel/share/gennodejs/ros/xycar_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/uu007007007/kmu_ms/devel/share/gennodejs/ros/xycar_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/moguming/kmu_ms/devel/lib/python2.7/dist-packages/xycar_msgs")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/uu007007007/kmu_ms/devel/lib/python2.7/dist-packages/xycar_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/moguming/kmu_ms/devel/lib/python2.7/dist-packages/xycar_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/uu007007007/kmu_ms/devel/lib/python2.7/dist-packages/xycar_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/moguming/kmu_ms/build/xycar_msgs/catkin_generated/installspace/xycar_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/uu007007007/kmu_ms/build/xycar_msgs/catkin_generated/installspace/xycar_msgs.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xycar_msgs/cmake" TYPE FILE FILES "/home/moguming/kmu_ms/build/xycar_msgs/catkin_generated/installspace/xycar_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xycar_msgs/cmake" TYPE FILE FILES "/home/uu007007007/kmu_ms/build/xycar_msgs/catkin_generated/installspace/xycar_msgs-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xycar_msgs/cmake" TYPE FILE FILES
-    "/home/moguming/kmu_ms/build/xycar_msgs/catkin_generated/installspace/xycar_msgsConfig.cmake"
-    "/home/moguming/kmu_ms/build/xycar_msgs/catkin_generated/installspace/xycar_msgsConfig-version.cmake"
+    "/home/uu007007007/kmu_ms/build/xycar_msgs/catkin_generated/installspace/xycar_msgsConfig.cmake"
+    "/home/uu007007007/kmu_ms/build/xycar_msgs/catkin_generated/installspace/xycar_msgsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xycar_msgs" TYPE FILE FILES "/home/moguming/kmu_ms/src/xycar_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xycar_msgs" TYPE FILE FILES "/home/uu007007007/kmu_ms/src/xycar_msgs/package.xml")
 endif()
 

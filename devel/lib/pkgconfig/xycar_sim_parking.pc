@@ -1,4 +1,4 @@
-prefix=/home/moguming/kmu_ms/devel
+prefix=/home/uu007007007/kmu_ms/devel
 
 Name: xycar_sim_parking
 Description: Description of xycar_sim_parking

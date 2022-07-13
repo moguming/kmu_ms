@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/xycar_msgs_generate_messages_nodejs"
-  "/home/moguming/kmu_ms/devel/share/gennodejs/ros/xycar_msgs/msg/xycar_ultrasounds.js"
-  "/home/moguming/kmu_ms/devel/share/gennodejs/ros/xycar_msgs/msg/xycar_motor.js"
+  "/home/uu007007007/kmu_ms/devel/share/gennodejs/ros/xycar_msgs/msg/xycar_ultrasounds.js"
+  "/home/uu007007007/kmu_ms/devel/share/gennodejs/ros/xycar_msgs/msg/xycar_motor.js"
 )
 
 # Per-language clean rules from dependency scanning.

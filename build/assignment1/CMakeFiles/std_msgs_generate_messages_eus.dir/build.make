@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/moguming/kmu_ms/src
+CMAKE_SOURCE_DIR = /home/uu007007007/kmu_ms/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/moguming/kmu_ms/build
+CMAKE_BINARY_DIR = /home/uu007007007/kmu_ms/build
 
 # Utility rule file for std_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ assignment1/CMakeFiles/std_msgs_generate_messages_eus.dir/build: std_msgs_genera
 .PHONY : assignment1/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 
 assignment1/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
-	cd /home/moguming/kmu_ms/build/assignment1 && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/uu007007007/kmu_ms/build/assignment1 && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : assignment1/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
 
 assignment1/CMakeFiles/std_msgs_generate_messages_eus.dir/depend:
-	cd /home/moguming/kmu_ms/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/moguming/kmu_ms/src /home/moguming/kmu_ms/src/assignment1 /home/moguming/kmu_ms/build /home/moguming/kmu_ms/build/assignment1 /home/moguming/kmu_ms/build/assignment1/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/uu007007007/kmu_ms/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uu007007007/kmu_ms/src /home/uu007007007/kmu_ms/src/assignment1 /home/uu007007007/kmu_ms/build /home/uu007007007/kmu_ms/build/assignment1 /home/uu007007007/kmu_ms/build/assignment1/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : assignment1/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
 

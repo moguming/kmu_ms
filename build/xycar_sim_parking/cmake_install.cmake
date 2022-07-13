@@ -1,8 +1,8 @@
-# Install script for directory: /home/moguming/kmu_ms/src/xycar_sim_parking
+# Install script for directory: /home/uu007007007/kmu_ms/src/xycar_sim_parking
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/moguming/kmu_ms/install")
+  set(CMAKE_INSTALL_PREFIX "/home/uu007007007/kmu_ms/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/moguming/kmu_ms/build/xycar_sim_parking/catkin_generated/installspace/xycar_sim_parking.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/uu007007007/kmu_ms/build/xycar_sim_parking/catkin_generated/installspace/xycar_sim_parking.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xycar_sim_parking/cmake" TYPE FILE FILES
-    "/home/moguming/kmu_ms/build/xycar_sim_parking/catkin_generated/installspace/xycar_sim_parkingConfig.cmake"
-    "/home/moguming/kmu_ms/build/xycar_sim_parking/catkin_generated/installspace/xycar_sim_parkingConfig-version.cmake"
+    "/home/uu007007007/kmu_ms/build/xycar_sim_parking/catkin_generated/installspace/xycar_sim_parkingConfig.cmake"
+    "/home/uu007007007/kmu_ms/build/xycar_sim_parking/catkin_generated/installspace/xycar_sim_parkingConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xycar_sim_parking" TYPE FILE FILES "/home/moguming/kmu_ms/src/xycar_sim_parking/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xycar_sim_parking" TYPE FILE FILES "/home/uu007007007/kmu_ms/src/xycar_sim_parking/package.xml")
 endif()
 
